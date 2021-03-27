@@ -1,0 +1,228 @@
+body {
+    margin: 0px;
+    padding: 0;
+    background-color: #FFFFFF;
+    background-image: url(image/fond.png);
+    background-size: 100%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+header {
+    border: 1px black solid;
+}
+
+#fondmenu {
+    margin-right: auto;
+    margin-left: auto;
+    width: 100%;
+    height: 50px;
+    background: white;
+    border-bottom: line;
+    position: sticky;
+    z-index: 1000;
+    top: 0px;
+    box-shadow: 0px 3px 4px rgba(15, 48, 87, 0.1);
+}
+
+#menu {
+    font-family: "Carlito";
+    margin-right: auto;
+    margin-left: auto;
+    display: table;
+    padding: 0;
+    margin-top: 0;
+    position: sticky;
+    top: 0px;
+}
+
+#menu li {
+    display: table-cell;
+    width: 10%;
+}
+
+#menu a {
+    color: #0f3057;
+    text-decoration: none;
+    display: block;
+    line-height: 47px;
+    text-align: center;
+    border-bottom: 3px solid white;
+    transition: 0.2s;
+}
+
+#menu a:hover {
+    border-bottom: 3px solid #0f3057;
+    transition: 1s;
+}
+
+.titre-1 {
+
+    font-family: "Tahoma";
+    margin-top: 50px;
+    color: #0f3057;
+
+}
+
+/*#presentation li,p{
+    font-family : "Carlito";
+	font-size : 120%;
+	width : 35%;
+	border-radius : 0px;
+	color : #0f3057;
+	padding : 0px ;
+	margin-left : 15% ;
+	margin-right : auto ;
+	text-align : justify;
+	text-justify : inter-word;
+}
+*/
+#gauche {
+    position: absolute;
+    top: 0;
+    float: left;
+    width: 20%;
+}
+
+#droite {
+    position: absolute;
+    top: 0;
+    float: right;
+    width: 20%;
+}
+
+#centre {
+    margin-right: 20%;
+    /* largeur de la colonne droite */
+    margin-left: 20%;
+    /* largeur de la colonne gauche */
+}
+
+#pourquoimmi h1 {
+    font-family: "Tahoma";
+    margin-top: 50px;
+    text-align: right;
+    margin-left: auto;
+    margin-right: 15%;
+    color: #0f3057;
+}
+
+#pourquoimmi p {
+    font-family: "Carlito";
+    font-size: 120%;
+    width: 35%;
+    border-radius: 0px;
+    color: #0f3057;
+    padding: 0px;
+    margin-top: 3%;
+    margin-left: auto;
+    margin-right: 15%;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+#projets h1 {
+    font-family: "Tahoma";
+    margin-top: 50px;
+    margin-left: 15%;
+    margin-right: auto;
+    color: #0f3057;
+}
+
+#projets p {
+    font-family: "Carlito";
+    font-size: 120%;
+    width: 35%;
+    border-radius: 0px;
+    color: #0f3057;
+    padding: 0px;
+    margin-top: 3%;
+    margin-left: 15%;
+    margin-right: auto;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+#hobbies h1 {
+    font-family: "Tahoma";
+    margin-top: 50px;
+    text-align: right;
+    margin-left: auto;
+    margin-right: 15%;
+    color: #0f3057;
+}
+
+#hobbies p {
+    font-family: "Carlito";
+    font-size: 120%;
+    width: 35%;
+    border-radius: 0px;
+    color: #0f3057;
+    padding: 0px;
+    margin-top: 3%;
+    margin-left: auto;
+    margin-right: 15%;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+
+#video {
+    margin-top: 50px;
+    padding: 20px;
+    background: #FFFFFF;
+}
+
+
+
+#pres-object {
+    width: 300px;
+    margin-bottom: 10px;
+    padding: 10px;
+    background: white;
+    box-shadow: 0 0 6px 0 rgba(15, 48, 87, 0.1);
+    font-family: "Carlito";
+    font-size: 120%;
+    color: #0f3057;
+}
+
+#presentation {
+    width: 70vw;
+
+    margin-left: 50%;
+    transform: translate(-50%)
+}
+
+.container-pres {
+
+    display: flex;
+    justify-content: space-between;
+    flex-direction: center;
+    flex-wrap: wrap;
+    margin-top: 5%;
+
+}
+
+.titre-c {
+    list-style: circle;
+}
+
+ul {
+    list-style: none;
+}
+
+footer {
+    display: flex;
+    box-shadow: 0px -3px 6px 0px rgba(15, 48, 87, 0.2);
+    justify-content: center;
+    padding: 10px;
+    margin-top: 50px;
+    background-color: #0f3057;
+    color: #fff;
+    font-family: "Carlito";
+
+}
+
+footer a {
+    color: #fff;
+}
